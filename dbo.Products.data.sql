@@ -1,0 +1,11 @@
+﻿SET IDENTITY_INSERT [dbo].[Products] ON
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (1, N'Kayak', N'A boat for one person', CAST(280.00 AS Decimal(18, 2)), N'Watersports', <Binary Data>, N'image/png')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (2, N'LifeJacket', N'Protective and fashionable', CAST(48.00 AS Decimal(18, 2)), N'Watersports', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (3, N'Soccer Ball', N'Fifa-approved', CAST(19.00 AS Decimal(18, 2)), N'Soccer', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (4, N'Corner Flags', N'Give your playing field a professional touch', CAST(34.00 AS Decimal(18, 2)), N'Soccer', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (5, N'Stadium', N'Flat-packed', CAST(79500.00 AS Decimal(18, 2)), N'Soccer', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (6, N'Thinking cap', N'Imrove your brain', CAST(16.00 AS Decimal(18, 2)), N'Chess', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (7, N'Unsteady Chair', N'Secretely give your opponent a disadvantage', CAST(29.00 AS Decimal(18, 2)), N'Chess', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (8, N'Human chess board', N'a fun game for the family', CAST(75.00 AS Decimal(18, 2)), N'Chess', <Binary Data>, N'image/jpeg')
+INSERT INTO [dbo].[Products] ([ProductID], [Name], [Description], [Price], [Category], [ImageData], [ImageMimeType]) VALUES (1009, N'Bling-Bling King', N'Какая то хрень', CAST(500000.00 AS Decimal(18, 2)), N'NewCategory', <Binary Data>, N'image/jpeg')
+SET IDENTITY_INSERT [dbo].[Products] OFF
